@@ -9,7 +9,7 @@
 		position: fixed;
 		width: 100%;
 		height: 100vh;
-		background: rgba(0,0,0,0.6);
+		background: black;
 		z-index: -1;
 		top: 0;left: 0;
 		
@@ -17,7 +17,9 @@
 	/*Estilos para el encabezado*/
 	.header{
 		width: 100%;
-		height: 100px;
+		height: 60px;		
+		background: Black;
+		display: flex;		
 		position: fixed;
 		top: 0;left: 0;
         z-index:10;
@@ -40,14 +42,14 @@
 	}
 	
 	.logo{
-		top: 15px;
+		top: 8px;
     position: absolute; 
-    max-width: 200px;
+    max-width: 150px;
     
 	}
 	.container .menu{
 		float: right;
-		line-height: 100px;
+		line-height: 1px;
 		
         
 	}
@@ -59,7 +61,7 @@
 		color: #fff;
 		transition: all 0.3s ease;
 		border-bottom: 2px solid transparent;
-		font-size: 20px;
+		font-size: 15px;
         font-weight: 0;
 		margin-right: 5px;
         
@@ -68,12 +70,12 @@
 		
 	}
 	.container .menu a:hover{
-		border-bottom: 2px solid #c7c7c7;
+		border-bottom: 1px solid #c7c7c7;
 		padding-bottom: 5px;
         
 	}
 	.header.active{
-		background: #201C1B;
+		background: black;
 		
 		
 	}
